@@ -35,3 +35,15 @@ cacheSolve <- function(x, ...) {
   x$setInv(m)
   m
 }
+##Sample test cases remove ## to run
+##  a <- makeCacheMatrix(matrix(1:4,2))
+##	a$get()
+##	a$getInv()
+##	a$set(matrix(5:8,2))
+##	a$get()
+##	cacheSolve(a)
+##	cacheSolve(a)
+##	a$getInv()
+##	b = a$getInv()
+##	a$get() %*% b
+
